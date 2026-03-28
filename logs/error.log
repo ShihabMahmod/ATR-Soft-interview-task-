@@ -1,0 +1,22 @@
+2026-03-11 09:47:20:4720 [31merror[39m: [31m401 - Not authorized to access this route - /api/blogs/ - POST - ::1[39m
+2026-03-11 09:54:32:5432 [31merror[39m: [31m401 - Not authorized to access this route - /api/admin/ - GET - ::1[39m
+2026-03-11 09:58:25:5825 [31merror[39m: [31m401 - Not authorized to access this route - /api/auth/register/ - GET - ::1[39m
+2026-03-11 09:58:29:5829 [31merror[39m: [31m401 - Not authorized to access this route - /api/auth/register/ - GET - ::1[39m
+2026-03-11 09:58:44:5844 [31merror[39m: [31m500 - Cannot read properties of undefined (reading 'map') - /api/auth/register/ - POST - ::1[39m
+2026-03-11 10:19:58:1958 [31merror[39m: [31m500 - Cannot read properties of undefined (reading 'map') - /api/auth/register/ - POST - ::1[39m
+2026-03-11 10:34:01:341 [31merror[39m: [31m500 - Cannot read properties of undefined (reading 'map') - /api/auth/register/ - POST - ::1[39m
+2026-03-15 11:49:01:491 [31merror[39m: [31m401 - Not authorized to access this route - /api/blogs - POST - ::1[39m
+2026-03-15 11:50:01:501 [31merror[39m: [31m401 - Not authorized to access this route - /api/blogs/ - POST - ::1[39m
+2026-03-15 11:50:46:5046 [31merror[39m: [31m401 - Not authorized to access this route - /api/auth/ - GET - ::1[39m
+2026-03-15 11:50:56:5056 [31merror[39m: [31m401 - Not authorized to access this route - /api/auth/ - POST - ::1[39m
+2026-03-15 11:51:37:5137 [31merror[39m: [31m500 - Cannot read properties of undefined (reading 'map') - /api/auth/register - POST - ::1[39m
+2026-03-15 11:52:45:5245 [31merror[39m: [31m500 - Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to[39m
+[31m535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82a0725ca0asm12128189b3a.17 - gsmtp - /api/auth/register - POST - ::1[39m
+2026-03-15 11:56:35:5635 [31merror[39m: [31m400 - Expected double-quoted property name in JSON at position 95 (line 6 column 1) - /api/auth/register - POST - ::1[39m
+2026-03-15 11:56:43:5643 [31merror[39m: [31m500 - Cannot read properties of undefined (reading 'map') - /api/auth/register - POST - ::1[39m
+2026-03-15 11:58:10:5810 [31merror[39m: [31m409 - Email already registered - /api/auth/register - POST - ::1[39m
+2026-03-15 12:07:19:719 [31merror[39m: [31m400 - Expected double-quoted property name in JSON at position 64 (line 4 column 1) - /api/auth/login/ - POST - ::1[39m
+2026-03-15 12:07:24:724 [31merror[39m: [31m500 - Converting circular structure to JSON[39m
+[31m    --> starting at object with constructor 'Socket'[39m
+[31m    |     property 'parser' -> object with constructor 'HTTPParser'[39m
+[31m    --- property 'socket' closes the circle - /api/auth/login/ - POST - ::1[39m
