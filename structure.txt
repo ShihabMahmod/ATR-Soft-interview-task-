@@ -1,0 +1,47 @@
+src
+├── config
+│   ├── db.ts
+│   └── dotenv.ts
+│
+├── controllers
+│   ├── authController.ts
+│   ├── blogController.ts
+│   └── categoryController.ts
+│
+├── services
+│   ├── authService.ts
+│   ├── blogService.ts
+│   └── categoryService.ts
+│
+├── repositories
+│   ├── blogRepository.ts
+│   ├── categoryRepository.ts
+│   └── userRepository.ts
+│
+├── models
+│   ├── Blog.ts
+│   ├── Category.ts
+│   └── User.ts
+│
+├── validations
+│   ├── authValidation.ts
+│   ├── blogValidation.ts
+│   └── categoryValidation.ts
+│
+├── middlewares
+│   ├── authMiddleware.ts
+│   ├── validate.ts
+│   └── errorMiddleware.ts
+│
+├── routes
+│   ├── authRoutes.ts
+│   ├── blogRoutes.ts
+│   └── categoryRoutes.ts
+│
+├── utils
+│   └── pagination.ts
+│
+├── app.ts
+└── server.ts
+
+Ai patter follow. type script chara same kaj kore de

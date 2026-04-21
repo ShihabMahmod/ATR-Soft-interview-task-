@@ -17,7 +17,6 @@ const validate = (schema) => (req, res, next) => {
       throw ApiError.badRequest('Validation failed', errors);
     }
 
-    // Update request with validated data
     if (result.data.body) req.body = result.data.body;
     if (result.data.query) req.query = result.data.query;
     if (result.data.params) req.params = result.data.params;
